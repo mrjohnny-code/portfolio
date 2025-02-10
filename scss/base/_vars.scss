@@ -1,0 +1,43 @@
+// fonts
+$montserrat: 'Montserrat', sans-serif;
+
+// media breaklpoints
+$grid-breakpoints: (
+	xs_0: 0,
+	sm_576: 576px,
+	md_768: 768px,
+	lg_992: 992px,
+	xl_1200: 1200px,
+	xxl: 1440px
+);
+
+$grid-breakpoints_u: (
+	xs_0: 0,
+	sm_577: 577px,
+	md_769: 769px,
+	lg_993: 993px,
+	xl_1201: 1201px,
+	xxl: 1441px
+);
+
+// colors
+$white: #ffffff;
+$black: #000000;
+$gray: #f3f3f3;
+$purple: #64578f;
+$green: #02af02;
+$red: #d90000;
+
+
+// base
+$body-bg: $white;
+$body-color: $black;
+$font-family-base: $montserrat;
+$font-size-base: 1.6rem;
+$line-height-base: 1.34;
+$links-color-base: inherit;
+$headings-font-weight: 700;
+$transition: .2s ease;
+
+$paddingX: 40px;
+$borderRadius: 8px;

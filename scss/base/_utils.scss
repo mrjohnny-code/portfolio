@@ -1,0 +1,31 @@
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+
+	@include breakpoint_d(lg_992){
+		flex-direction: column;
+	}
+
+	.container {
+		--containerWidth: 1440px;
+						
+		width: 100%;
+		max-width: calc(var(--containerWidth) + $paddingX * 2);
+		margin-inline: auto;
+		padding-inline: $paddingX;
+
+		@include breakpoint_d(xl_1200){
+			padding-inline: 25px;
+		}
+
+		@include breakpoint_d(md_768){
+			max-width: 100%;
+			padding-inline: 15px;
+		}
+	}
+}
+
+.visually-hidden {
+	@include visually-hidden;
+}
