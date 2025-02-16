@@ -331,6 +331,7 @@ h6 {
   justify-content: flex-start;
   align-items: center;
   gap: 7px;
+  margin-top: auto;
   margin-bottom: 10px;
   font-size: 2.4rem;
   font-weight: 700;
@@ -343,8 +344,11 @@ h6 {
   aspect-ratio: 1;
   background: url("./../images/icons/link.svg") center/cover no-repeat;
 }
-.content .content__works_list .content__works_item .content__works_title.mt-a {
-  margin-top: auto;
+.content .content__works_list .content__works_item .content__works_title.no_link {
+  pointer-events: none;
+}
+.content .content__works_list .content__works_item .content__works_title.no_link::before {
+  display: none;
 }
 .content .content__works_list .content__works_item .content__works_description {
   display: flex;

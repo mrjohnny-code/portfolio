@@ -72,6 +72,7 @@
 				justify-content: flex-start;
 				align-items: center;
 				gap: 7px;
+				margin-top: auto;
 				margin-bottom: 10px;
 				font-size: 2.4rem;
 				font-weight: 700;
@@ -85,8 +86,12 @@
 					background: url('./../images/icons/link.svg') center / cover no-repeat;
 				}
 
-				&.mt-a {
-					margin-top: auto;
+				&.no_link {
+					pointer-events: none;
+
+					&::before {
+						display: none;
+					}
 				}
 			}
 
