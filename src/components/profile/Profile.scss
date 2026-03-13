@@ -1,0 +1,98 @@
+.profile {
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+	padding-block: 40px;
+	background:
+		linear-gradient(80deg,
+			rgba(0, 0, 0, 0.6),
+			rgba(107, 55, 55, 0.5)),
+		url('@/assets/images/aside-bg.avif') center / cover no-repeat;
+	background-color: #464057;
+	color: $white;
+
+	@include breakpoint_u(lg_993) {
+		max-width: calc(25vw + $paddingX);
+		overflow-y: auto;
+	}
+
+	&__avatar {
+		max-width: 120px;
+		aspect-ratio: 1;
+		margin-bottom: 20px;
+		border-radius: $borderRadius;
+		overflow: hidden;
+	}
+
+	&__content {
+		text-shadow: 0 0 5px $black;
+
+		.profile__title {
+			margin-bottom: 0;
+			font-size: 2.4rem;
+		}
+
+		.profile__role {
+			display: block;
+			margin-bottom: 20px;
+			font-size: 1.8rem;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			row-gap: 10px;
+			margin-bottom: 30px;
+
+			li {
+				display: flex;
+				align-items: center;
+				column-gap: 10px;
+
+				img {
+					max-width: 25px;
+				}
+			}
+
+			.profile__contact-label {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				column-gap: 5px;
+
+				&::before {
+					content: '';
+					display: block;
+					width: 15px;
+					aspect-ratio: 1;
+					background: center / cover no-repeat;
+				}
+
+				&.telegram:before {
+					background-image: url('@/assets/images/icons/telegram.svg');
+				}
+
+				&.github:before {
+					background-image: url('@/assets/images/icons/github.svg');
+					filter: invert(1);
+				}
+
+				&.hhru:before {
+					background-image: url('@/assets/images/icons/hhru.svg');
+				}
+			}
+		}
+
+		// /ul
+
+		.profile__skills {
+			.profile__subtitle {
+				display: block;
+				margin-bottom: 5px;
+				font-size: 1.8rem;
+				font-weight: 700;
+			}
+		}// /.profile__skills
+	}// /.profile__content
+}// /.profile

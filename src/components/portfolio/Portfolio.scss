@@ -1,0 +1,76 @@
+.portfolio {
+	width: 100%;
+	padding-block: 50px;
+
+	@include breakpoint_u(lg_993){
+		max-width: calc(75vw + $paddingX);
+		height: 100vh;
+		overflow-y: scroll;
+	}
+
+	@include breakpoint_d(md_768){
+		padding-block: 20px;
+	}
+
+	&__about {
+		margin-bottom: 30px;
+		padding: 20px;
+		background: #f3f3f3;
+		border-radius: 8px;
+
+		@media screen and (max-width: 768px) {
+			margin-bottom: 20px;
+		}
+
+		.portfolio__experience {
+			display: block;
+			margin-bottom: 10px;
+			font-size: 1.8rem;
+		}
+
+		.portfolio__description {
+			display: block;
+			opacity: 0.8;
+		}
+	}
+
+	&__title {
+		margin-bottom: 30px;
+		font-size: 3rem;
+
+		@media screen and (max-width: 768px) {
+			margin-bottom: 5px;
+		}
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+
+		@include breakpoint_d(md_768){
+			grid-template-columns: repeat(1, 1fr);
+			gap: 20px;
+		}
+
+		.portfolio__load-more {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			justify-self: center;
+			grid-column: 1 / -1; 
+			padding: 10px 18px;
+			width: fit-content;
+			color: $white;
+			background-color: $pink;
+			border-radius: 8px;
+			box-shadow: none;
+			border: none;
+			transition: background-color .2s;
+
+			&:hover {
+				background-color: $pinkLightDark;
+			}
+		}
+	}// /.portfolio__list
+}// /.portfolio
