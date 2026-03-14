@@ -55,10 +55,21 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 30px;
+		transition: opacity .2s, transform .2s;
 
 		@include breakpoint_d(md_768){
 			grid-template-columns: repeat(1, 1fr);
 			gap: 20px;
+		}
+
+		&.fade-out {
+			opacity: 0;
+			transform: translateY(5px);
+		}
+
+		&.fade-in {
+			opacity: 1;
+			transform: translateY(0);
 		}
 
 		.portfolio__load-more {
