@@ -31,6 +31,14 @@
 		.portfolio__description {
 			display: block;
 			opacity: 0.8;
+
+			&.note {
+				margin-bottom: 0;
+				padding-left: 12px;
+				border-left: 3px solid $pink;
+				font-style: italic;
+				opacity: 0.85;
+			}
 		}
 	}
 

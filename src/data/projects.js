@@ -187,6 +187,9 @@ import launchinstituteFull from "@/assets/images/works/launchstitute/launchstitu
 import corgibet from "@/assets/images/works/corgibet/corgibet-s.webp";
 import corgibetFull from "@/assets/images/works/corgibet/corgibet.webp";
 
+import portfolio from "@/assets/images/works/portfolio/portfolio-s.webp";
+import portfolioFull from "@/assets/images/works/portfolio/portfolio.webp";
+
 export const projects = [
   {
     id: 1,
@@ -257,6 +260,7 @@ export const projects = [
     status: "online",
     role: "Полностью мой код",
 	  type: 'work',
+    priority: 3,
     gallery: [
       { thumb: mordisco1, full: mordisco1Full, width: 1440, height: 7717 },
       { thumb: mordisco2, full: mordisco2Full, width: 1440, height: 6464 },
@@ -511,6 +515,19 @@ export const projects = [
     priority: 3,
     gallery: [
       { thumb: corgibet, full: corgibetFull, width: 1900, height: 7793 },
+    ]
+  },
+  {
+    id: 24,
+    title: "Portfolio",
+    link: "https://mrjohnny-code.github.io/portfolio-old",
+    repo: 'https://github.com/mrjohnny-code/portfolio-old',
+    status: "online",
+    role: "Личный сайт-портфолио с кратким резюме и примерами реализованных проектов",
+	  type: 'train',
+    priority: 4,
+    gallery: [
+      { thumb: portfolio, full: portfolioFull, width: 1920, height: 947 },
     ]
   }
 ];
