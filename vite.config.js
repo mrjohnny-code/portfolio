@@ -4,7 +4,7 @@ import path  from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/portfolio/',
+    base: '/portfolioreact/',
     plugins: [react()],
     resolve: {
         alias: {
@@ -25,4 +25,7 @@ export default defineConfig({
             },
         },
     },
+    build: {
+        outDir: 'dist'
+    }
 });
