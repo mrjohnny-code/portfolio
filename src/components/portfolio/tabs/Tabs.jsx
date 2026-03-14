@@ -4,9 +4,8 @@ import './Tabs.scss'
 import { projects } from "../../../data/projects";
 import PortfolioCard from "../portfolioCard/PortfolioCard";
 
-export default function Tabs() {
+export default function Tabs({visibleCount, setVisibleCount}) {
 	const [ tab, setTab ] = useState('all');
-	const [visibleCount, setVisibleCount] = useState(4)
 
 	const tabs = [
 		{ id: 'all', label: 'Все проекты'},
@@ -42,6 +41,7 @@ export default function Tabs() {
 		setVisibleCount(4);
 	}, [tab])
 
+	// кнопка подгрузки проектов
 	const handleLoadMore = () => {
 		setVisibleCount(prev => Math.min(prev + 4, projects.length))
 	}
