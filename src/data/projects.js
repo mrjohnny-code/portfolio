@@ -190,6 +190,12 @@ import corgibetFull from "@/assets/images/works/corgibet/corgibet.webp";
 import portfolio from "@/assets/images/works/portfolio/portfolio-s.webp";
 import portfolioFull from "@/assets/images/works/portfolio/portfolio.webp";
 
+import nexaflow from "@/assets/images/works/nexaflow/nexaflow-s.webp";
+import nexaflowFull from "@/assets/images/works/nexaflow/nexaflow.webp";
+
+import timeline from "@/assets/images/works/timeline/timeline-s.webp";
+import timelineFull from "@/assets/images/works/timeline/timeline.webp";
+
 export const projects = [
   {
     id: 1,
@@ -276,6 +282,7 @@ export const projects = [
     status: "online",
     role: "Полностью мой код",
 	  type: 'work',
+    priority: 3,
     gallery: [
       { thumb: timeoutmedia1, full: timeoutmedia1Full, width: 1600, height: 5810 }
     ]
@@ -512,7 +519,7 @@ export const projects = [
     status: "online",
     role: "Тестовое задание согласно ТЗ",
 	  type: 'test',
-    priority: 3,
+    priority: 2,
     gallery: [
       { thumb: corgibet, full: corgibetFull, width: 1900, height: 7793 },
     ]
@@ -525,9 +532,34 @@ export const projects = [
     status: "online",
     role: "Личный сайт-портфолио с кратким резюме и примерами реализованных проектов",
 	  type: 'train',
-    priority: 4,
     gallery: [
       { thumb: portfolio, full: portfolioFull, width: 1920, height: 947 },
+    ]
+  },
+  {
+    id: 25,
+    title: "Nexaflow",
+    link: "https://mrjohnny-code.github.io/nexaflow",
+    repo: 'https://github.com/mrjohnny-code/nexaflow',
+    status: "online",
+    role: "Тестовое задание согласно ТЗ",
+	  type: 'test',
+    priority: 3,
+    gallery: [
+      { thumb: nexaflow, full: nexaflowFull, width: 1900, height: 5557 },
+    ]
+  },
+  {
+    id: 26,
+    title: "Timeline",
+    link: "https://mrjohnny-code.github.io/timeline",
+    repo: 'https://github.com/mrjohnny-code/timeline',
+    status: "online",
+    role: "Тестовый интерактивный таймлайн на React + TypeScript. Реализована работа со структурированными данными, типизация компонентов и состояний, а также логика переключения событий.",
+	  type: 'test',
+    priority: 5,
+    gallery: [
+      { thumb: timeline, full: timelineFull, width: 1900, height: 1099 },
     ]
   }
 ];
