@@ -540,9 +540,9 @@ export const projects = [
     id: 25,
     title: "Nexaflow",
     link: "https://mrjohnny-code.github.io/nexaflow",
-    repo: 'https://github.com/mrjohnny-code/nexaflow',
+    repo: 'https://github.com/mrjohnny-code/nexaflow-wp',
     status: "online",
-    role: "Тестовое задание согласно ТЗ",
+    role: "Тестовое задание, вёрстка сайта с натяжкой на WordPress",
 	  type: 'test',
     priority: 3,
     gallery: [
