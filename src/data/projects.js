@@ -202,7 +202,7 @@ export const projects = [
     title: "Mana ind",
     link: "https://www.mind.ag",
     status: "online",
-    role: "В основном мой код, небольшие изменения",
+    role: "Проект разработан мной, за исключением отдельных незначительных правок, внесённых на этапе дальнейшей поддержки.",
 	  type: 'work',
     gallery: [
       { thumb: mana1, full: mana1Full, width: 1848, height: 8192 },
@@ -218,7 +218,7 @@ export const projects = [
     title: "Lifdubetur",
     link: "https://lifdubetur.is",
     status: "online",
-    role: "Полностью мой код",
+    role: "Полностью разработан мной.",
 	  type: 'work',
     gallery: [
       { thumb: lifdu1, full: lifdu1Full, width: 2880, height: 16383 },
@@ -233,7 +233,7 @@ export const projects = [
     title: "ComboBond",
     link: "https://combobond.com",
     status: "online",
-    role: "Полностью мой код",
+    role: "Полностью разработан мной.",
 	  type: 'work',
     gallery: [
       { thumb: combobond1, full: combobond1Full, width: 1440, height: 4784 },
@@ -248,7 +248,7 @@ export const projects = [
     title: "BeautyPapers",
     link: "https://beautypapers.com",
     status: "online",
-    role: "В основном мой код, небольшие изменения",
+    role: "Проект разработан мной, за исключением отдельных незначительных правок, внесённых на этапе дальнейшей поддержки.",
 	  type: 'work',
     gallery: [
       { thumb: beautypapers1, full: beautypapers1Full, width: 1440, height: 3537 },
@@ -264,7 +264,7 @@ export const projects = [
     title: "Mordisco",
     link: "https://www.mordisco.com/en/",
     status: "online",
-    role: "Полностью мой код",
+    role: "Полностью разработан мной.",
 	  type: 'work',
     priority: 3,
     gallery: [
@@ -280,7 +280,7 @@ export const projects = [
     title: "TimeOutMedia",
     link: "https://www.timeoutmedia.de",
     status: "online",
-    role: "Полностью мой код",
+    role: "Полностью разработан мной.",
 	  type: 'work',
     priority: 3,
     gallery: [
@@ -292,7 +292,7 @@ export const projects = [
     title: "NoguerasBlanchard",
     link: "https://www.noguerasblanchard.com/en",
     status: "online",
-    role: "В основном мой код, небольшие изменения",
+    role: "Проект разработан мной, за исключением отдельных незначительных правок, внесённых на этапе дальнейшей поддержки.",
 	  type: 'work',
     gallery: [
       { thumb: nogueras1, full: nogueras1Full, width: 1440, height: 4645 },
@@ -308,7 +308,7 @@ export const projects = [
     title: "Dosnoventa Bikes",
     link: "https://dosnoventabikes.com",
     status: "online",
-    role: "Полностью мой код",
+    role: "Полностью разработан мной.",
 	  type: 'work',
     gallery: [
       { thumb: dosnoventa1, full: dosnoventa1Full, width: 1920, height: 4672 },
@@ -324,7 +324,7 @@ export const projects = [
     title: "Ravagh Group",
     link: "http://ravaghgroup.com",
     status: "online",
-    role: "Полностью мой код",
+    role: "Полностью разработан мной.",
 	  type: 'work',
     gallery: [
       { thumb: ravagh1, full: ravagh1Full, width: 1680, height: 4486 },
@@ -339,7 +339,7 @@ export const projects = [
     link: "https://mrjohnny-code.github.io/conygar",
     repo: "https://github.com/mrjohnny-code/conygar",
     status: "gh",
-    role: "Полностью мой код",
+    role: "Полностью разработан мной.",
   	type: 'work',
     gallery: [
       { thumb: conygar1, full: conygar1Full, width: 2000, height: 4178 },
@@ -355,7 +355,7 @@ export const projects = [
     title: "Remberg",
     link: "",
    	status: "wp",
-    role: "Полностью мой код, оффлайн бэкап темы wp, демонстрация кода по запросу",
+    role: "Полностью разработан мной, оффлайн бэкап темы wp, демонстрация кода по запросу",
 	  type: 'work',
     gallery: [
       { thumb: remberg1, full: remberg1Full, width: 1680, height: 6588 },
@@ -370,7 +370,7 @@ export const projects = [
     title: "Zenon",
     link: "",
     status: "wp",
-    role: "Полностью мой код, оффлайн бэкап темы wp, демонстрация кода по запросу",
+    role: "Полностью разработан мной, оффлайн бэкап темы wp, демонстрация кода по запросу",
 	  type: 'work',
     gallery: [
       { thumb: zenon1, full: zenon1Full, width: 1800, height: 3641 },
@@ -385,7 +385,7 @@ export const projects = [
     title: "CarlaPerezGroup",
     link: "",
     status: "wp",
-    role: "Полностью мой код, оффлайн бэкап темы wp, демонстрация кода по запросу",
+    role: "Полностью разработан мной, оффлайн бэкап темы wp, демонстрация кода по запросу",
 	  type: 'work',
     gallery: [
       { thumb: carla1, full: carla1Full, width: 1598, height: 2475 },
@@ -400,7 +400,7 @@ export const projects = [
     title: "SmartCity ExpoAtlanta",
     link: "",
     status: "wp",
-    role: "Полностью мой код, оффлайн бэкап темы wp, демонстрация кода по запросу",
+    role: "Полностью разработан мной, оффлайн бэкап темы wp, демонстрация кода по запросу",
 	  type: 'work',
     gallery: [
       { thumb: scatl1, full: scatl1Full, width: 1920, height: 4382 },
@@ -415,7 +415,7 @@ export const projects = [
     title: "SocUnaDona",
     link: "",
     status: "wp",
-    role: "Полностью мой код, оффлайн бэкап темы wp, демонстрация кода по запросу",
+    role: "Полностью разработан мной, оффлайн бэкап темы wp, демонстрация кода по запросу",
 	  type: 'work',
     gallery: [
       { thumb: sud1, full: sud1Full, width: 1280, height: 796 },
@@ -423,68 +423,6 @@ export const projects = [
       { thumb: sud3, full: sud3Full, width: 1280, height: 8667 },
       { thumb: sud4, full: sud4Full, width: 1280, height: 3037 },
       { thumb: sud5, full: sud5Full, width: 1280, height: 2880 }
-    ]
-  },
-  {
-    id: 16,
-    title: "Piroll",
-    link: "https://mrjohnny-code.github.io/piroll",
-    repo: 'https://github.com/mrjohnny-code/piroll',
-    status: "online",
-    role: "Тренировочный сайт",
-	  type: 'train',
-    gallery: [
-      { thumb: piroll, full: pirollFull, width: 1900, height: 5490 },
-    ]
-  },
-  {
-    id: 17,
-    title: "Agnecy",
-    link: "https://mrjohnny-code.github.io/agnecy",
-    repo: 'https://github.com/mrjohnny-code/agnecy',
-    status: "online",
-    role: "Тренировочный сайт",
-	  type: 'train',
-    gallery: [
-      { thumb: agnecy, full: agnecyFull, width: 1900, height: 4644 },
-    ]
-  },
-  {
-    id: 18,
-    title: "Fashion Clothes",
-    link: "https://mrjohnny-code.github.io/fashion",
-    repo: 'https://github.com/mrjohnny-code/fashion',
-    status: "online",
-    role: "Тренировочный сайт",
-	  type: 'train',
-    priority: 1,
-    gallery: [
-      { thumb: fashion, full: fashionFull, width: 1900, height: 3316 },
-    ]
-  },
-  {
-    id: 19,
-    title: "Monsa",
-    link: "https://mrjohnny-code.github.io/monsa",
-    repo: 'https://github.com/mrjohnny-code/monsa',
-    status: "online",
-    role: "Тренировочный сайт",
-	  type: 'train',
-    gallery: [
-      { thumb: monsa, full: monsaFull, width: 1900, height: 5786 },
-    ]
-  },
-  {
-    id: 20,
-    title: "Bautex",
-    link: "https://mrjohnny-code.github.io/bautex",
-    repo: 'https://github.com/mrjohnny-code/bautex',
-    status: "online",
-    role: "Тренировочный сайт",
-	  type: 'train',
-    priority: 2,
-    gallery: [
-      { thumb: bautex, full: bautexFull, width: 1900, height: 7375 },
     ]
   },
   {

@@ -1,5 +1,6 @@
 // Импорт иконок
 import reactIcon from '@/assets/images/icons/react.svg';
+import wordpressIcon from '@/assets/images/icons/wordpress.svg';
 import htmlIcon from '@/assets/images/icons/html5.svg';
 import pugIcon from '@/assets/images/icons/pug.svg';
 import njkIcon from '@/assets/images/icons/nunjucks.svg';
@@ -21,6 +22,7 @@ export const profile = {
     ],
     skills: [
         { name: "React - хуки, состояния, компоненты, маршруты", icon: reactIcon },
+        { name: "WordPress - темы, шаблоны, CPT, ACF, хуки", icon: wordpressIcon },
         { name: "HTML5 (БЭМ)", icon: htmlIcon },
         { name: "PUG", icon: pugIcon },
         { name: "Nunjucks", icon: njkIcon },
