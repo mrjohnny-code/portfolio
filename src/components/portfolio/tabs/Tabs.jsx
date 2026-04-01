@@ -39,7 +39,7 @@ export default function Tabs({visibleCount, setVisibleCount}) {
 
 	// сброс видимых проектов при смене таба
 	useEffect(() => {
-		setVisibleCount(4);
+		setVisibleCount(6);
 	}, [tab])
 
 	// кнопка подгрузки проектов

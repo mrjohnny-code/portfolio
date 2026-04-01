@@ -4,7 +4,7 @@ import './Portfolio.scss'
 import { useEffect, useRef, useState } from 'react'
 
 export default function Portfolio() {
-	const [visibleCount, setVisibleCount] = useState(4);
+	const [visibleCount, setVisibleCount] = useState(6);
 	const [showScrollBtn, setShowScrollBtn] = useState(false)
 
 	const portfolioTopRef = useRef(null)
