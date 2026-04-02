@@ -10,7 +10,7 @@ import jsIcon from '@/assets/images/icons/js.svg';
 import jqIcon from '@/assets/images/icons/jquery.svg';
 import bootstrapIcon from '@/assets/images/icons/bootstrap.svg';
 import gitIcon from '@/assets/images/icons/git.svg';
-import gulpIcon from '@/assets/images/icons/gulp.svg';
+import gearIcon from '@/assets/images/icons/gear.svg';
 
 export const profile = {
     name: "Иван",
@@ -23,15 +23,15 @@ export const profile = {
     skills: [
         { name: "React - хуки, состояния, компоненты, маршруты", icon: reactIcon },
         { name: "WordPress - темы, шаблоны, CPT, ACF, хуки", icon: wordpressIcon },
-        { name: "HTML5 (БЭМ)", icon: htmlIcon },
+        { name: "HTML (БЭМ)", icon: htmlIcon },
         { name: "PUG", icon: pugIcon },
         { name: "Nunjucks", icon: njkIcon },
-        { name: "CSS3/SASS/SCSS (Flex, Grid)", icon: cssIcon },
+        { name: "CSS/SASS/SCSS (Flex, Grid)", icon: cssIcon },
         { name: "Stylus", icon: stylusIcon },
         { name: "JavaScript", icon: jsIcon },
         { name: "jQuery", icon: jqIcon },
         { name: "Bootstrap", icon: bootstrapIcon },
         { name: "Git", icon: gitIcon },
-        { name: "Gulp", icon: gulpIcon }
+        { name: "Gulp/Webpack/Vite", icon: gearIcon }
     ]
 };

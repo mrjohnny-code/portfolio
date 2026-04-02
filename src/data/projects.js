@@ -199,6 +199,15 @@ import timelineFull from "@/assets/images/works/timeline/timeline.webp";
 import nda_1 from "@/assets/images/works/nda/nda-1s.webp";
 import nda_1Full from "@/assets/images/works/nda/nda-1.webp";
 
+import nda_2 from "@/assets/images/works/nda/nda-2s.webp";
+import nda_2Full from "@/assets/images/works/nda/nda-2.webp";
+
+import nda_2_2 from "@/assets/images/works/nda/nda-2-2s.webp";
+import nda_2_2Full from "@/assets/images/works/nda/nda-2-2.webp";
+
+import nda_2_3 from "@/assets/images/works/nda/nda-2-3s.webp";
+import nda_2_3Full from "@/assets/images/works/nda/nda-2-3.webp";
+
 export const projects = [
   {
     id: 1,
@@ -505,15 +514,30 @@ export const projects = [
   },
   {
     id: 27,
-    title: "NDA Prject #1",
+    title: "NDA Project #1",
     link: "https://mrjohnny-code.github.io/NDA-project-1",
     repo: 'https://github.com/mrjohnny-code/NDA-project-1',
     status: "online",
     role: "Данный проект, выполненный в рамках коммерческой разработки под NDA. Разработка велась по предоставленному ТЗ, дизайну и требованиям заказчика, подробнее в описании проекта",
 	  type: 'work',
-    priority: 6,
+    priority: 7,
     gallery: [
       { thumb: nda_1, full: nda_1Full, width: 1900, height: 2034 },
+    ]
+  },
+  {
+    id: 28,
+    title: "NDA Project #2",
+    link: "https://mrjohnny-code.github.io/NDA-project-2",
+    repo: 'https://github.com/mrjohnny-code/NDA-project-2',
+    status: "online",
+    role: "Данный проект, выполненный в рамках коммерческой разработки под NDA. Разработка велась по предоставленному ТЗ, дизайну и требованиям заказчика, подробнее в описании проекта",
+	  type: 'work',
+    priority: 6,
+    gallery: [
+      { thumb: nda_2, full: nda_2Full, width: 1900, height: 1024 },
+      { thumb: nda_2_2, full: nda_2_2Full, width: 1900, height: 1859 },
+      { thumb: nda_2_3, full: nda_2_3Full, width: 1900, height: 1304 },
     ]
   }
 ];
