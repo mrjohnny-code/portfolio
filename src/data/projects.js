@@ -208,6 +208,11 @@ import nda_2_2Full from "@/assets/images/works/nda/nda-2-2.webp";
 import nda_2_3 from "@/assets/images/works/nda/nda-2-3s.webp";
 import nda_2_3Full from "@/assets/images/works/nda/nda-2-3.webp";
 
+import testGym from "@/assets/images/works/testgym/testgym-s.webp";
+import testGymFull from "@/assets/images/works/testgym/testgym.webp";
+import testGym2 from "@/assets/images/works/testgym/testgym_m-s.webp";
+import testGymFull2 from "@/assets/images/works/testgym/testgym_m.webp";
+
 export const projects = [
   {
     id: 1,
@@ -294,7 +299,7 @@ export const projects = [
     status: "online",
     role: "Полностью разработан мной.",
 	  type: 'work',
-    priority: 3,
+    priority: 2,
     gallery: [
       { thumb: timeoutmedia1, full: timeoutmedia1Full, width: 1600, height: 5810 }
     ]
@@ -538,6 +543,20 @@ export const projects = [
       { thumb: nda_2, full: nda_2Full, width: 1900, height: 1024 },
       { thumb: nda_2_2, full: nda_2_2Full, width: 1900, height: 1859 },
       { thumb: nda_2_3, full: nda_2_3Full, width: 1900, height: 1304 },
+    ]
+  },
+  {
+    id: 29,
+    title: "TestGym",
+    link: "https://mrjohnny-code.github.io/testgym",
+    repo: 'https://github.com/mrjohnny-code/testgym',
+    status: "online",
+    role: "Тестовое задание на Next.js + React + Tailwind CSS с динамическим рендерингом данных из API и адаптивной версткой.",
+	  type: 'test',
+    priority: 4,
+    gallery: [
+      { thumb: testGym, full: testGymFull, width: 1900, height: 1564 },
+      { thumb: testGym2, full: testGymFull2, width: 357, height: 1485 },
     ]
   }
 ];

@@ -9,6 +9,7 @@ import stylusIcon from '@/assets/images/icons/stylus.svg';
 import jsIcon from '@/assets/images/icons/js.svg';
 import jqIcon from '@/assets/images/icons/jquery.svg';
 import bootstrapIcon from '@/assets/images/icons/bootstrap.svg';
+import tailwindpIcon from '@/assets/images/icons/tailwind.svg';
 import gitIcon from '@/assets/images/icons/git.svg';
 import gearIcon from '@/assets/images/icons/gear.svg';
 
@@ -30,6 +31,7 @@ export const profile = {
         { name: "Stylus", icon: stylusIcon },
         { name: "JavaScript", icon: jsIcon },
         { name: "jQuery", icon: jqIcon },
+        { name: "TailwindCSS", icon: tailwindpIcon },
         { name: "Bootstrap", icon: bootstrapIcon },
         { name: "Git", icon: gitIcon },
         { name: "Gulp/Webpack/Vite", icon: gearIcon }
