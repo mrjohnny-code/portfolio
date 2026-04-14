@@ -12,6 +12,7 @@ import bootstrapIcon from '@/assets/images/icons/bootstrap.svg';
 import tailwindpIcon from '@/assets/images/icons/tailwind.svg';
 import gitIcon from '@/assets/images/icons/git.svg';
 import gearIcon from '@/assets/images/icons/gear.svg';
+import serverIcon from '@/assets/images/icons/server.svg';
 
 export const profile = {
     name: "Иван",
@@ -34,6 +35,7 @@ export const profile = {
         { name: "TailwindCSS", icon: tailwindpIcon },
         { name: "Bootstrap", icon: bootstrapIcon },
         { name: "Git", icon: gitIcon },
-        { name: "Gulp/Webpack/Vite", icon: gearIcon }
+        { name: "Gulp/Webpack/Vite", icon: gearIcon },
+        { name: "Linux(Ubuntu)/Nginx/Apache", icon: serverIcon }
     ]
 };

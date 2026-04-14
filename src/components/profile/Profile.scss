@@ -43,7 +43,10 @@
 			flex-direction: column;
 			flex-wrap: wrap;
 			row-gap: 10px;
-			margin-bottom: 30px;
+
+			&:not(:last-child) {
+				margin-bottom: 20px;
+			}
 
 			li {
 				display: flex;
@@ -82,9 +85,7 @@
 					background-image: url('@/assets/images/icons/hhru.svg');
 				}
 			}
-		}
-
-		// /ul
+		}// /ul
 
 		.profile__skills {
 			.profile__subtitle {
