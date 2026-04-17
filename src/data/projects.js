@@ -208,6 +208,12 @@ import nda_2_2Full from "@/assets/images/works/nda/nda-2-2.webp";
 import nda_2_3 from "@/assets/images/works/nda/nda-2-3s.webp";
 import nda_2_3Full from "@/assets/images/works/nda/nda-2-3.webp";
 
+
+import nda_3 from "@/assets/images/works/nda/nda-3s.webp";
+import nda_3Full from "@/assets/images/works/nda/nda-3.webp";
+import nda_3_2 from "@/assets/images/works/nda/nda-3-2s.webp";
+import nda_3_2Full from "@/assets/images/works/nda/nda-3-2.webp";
+
 import testGym from "@/assets/images/works/testgym/testgym-s.webp";
 import testGymFull from "@/assets/images/works/testgym/testgym.webp";
 import testGym2 from "@/assets/images/works/testgym/testgym_m-s.webp";
@@ -525,7 +531,7 @@ export const projects = [
     status: "online",
     role: "Данный проект, выполненный в рамках коммерческой разработки под NDA. Разработка велась по предоставленному ТЗ, дизайну и требованиям заказчика, подробнее в описании проекта",
 	  type: 'work',
-    priority: 7,
+    priority: 1,
     gallery: [
       { thumb: nda_1, full: nda_1Full, width: 1900, height: 2034 },
     ]
@@ -557,6 +563,20 @@ export const projects = [
     gallery: [
       { thumb: testGym, full: testGymFull, width: 1900, height: 1564 },
       { thumb: testGym2, full: testGymFull2, width: 357, height: 1485 },
+    ]
+  },
+  {
+    id: 30,
+    title: "NDA - pet",
+    link: "https://mrjohnny-code.github.io/nda-pet",
+    repo: 'https://github.com/mrjohnny-code/nda-pet',
+    status: "online",
+    role: "Данный проект, выполненный в рамках коммерческой разработки под NDA. Разработка велась по предоставленному ТЗ, дизайну и требованиям заказчика, подробнее в описании проекта",
+	  type: 'work',
+    priority: 6,
+    gallery: [
+      { thumb: nda_3, full: nda_3Full, width: 1900, height: 1040 },
+      { thumb: nda_3_2, full: nda_3_2Full, width: 1900, height: 1221 },
     ]
   }
 ];
